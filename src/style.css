@@ -1,0 +1,470 @@
+/* -------------------------------------------------------App css start------------------------------------------------ */
+.app-full-page {
+  display: flex;
+}
+.app-main-page {
+  flex-basis: 87%;
+}
+.app-sidepanel {
+  flex-basis: 13%;
+}
+/* -------------------------------------------------------App css end------------------------------------------------ */
+
+/* -------------------------------------------------------Navbar css start------------------------------------------------ */
+.list-style {
+  list-style: none;
+  text-decoration: none;
+}
+.img-profile {
+  width: 30px;
+}
+.text-gray-600 {
+  color: #858796 !important;
+}
+/* Search css */
+.topbar .dropdown {
+  position: static;
+}
+li {
+  display: list-item;
+  list-style: none;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #d1d3e2;
+}
+.topbar .nav-item .nav-link {
+  height: 3.175rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.75rem;
+}
+.nav-link {
+  position: relative;
+}
+.topbar .topbar-divider {
+  width: 0;
+  border-right: 1px solid #e3e6f0;
+  height: calc(4.375rem - 2rem);
+  margin: auto 1rem;
+}
+/* dropdown-profile */
+.dropdown-toggle {
+  white-space: nowrap;
+}
+.dropdown .dropdown-menu {
+  font-size: 0.85rem;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #3a3b45;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+.text-gray-400 {
+  color: #d1d3e2 !important;
+}
+.mr-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+}
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+.fa-sm {
+  font-size: 0.875em;
+}
+.shadow {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+/* -------------------------------------------------------Navbar css end------------------------------------------------ */
+
+/* -------------------------------------------------------Footer css start------------------------------------------------ */
+.bg-footer {
+  background: linear-gradient(to bottom, #4e73df 10%, #224abe 100%);
+}
+.font-primary-footer {
+  font-size: 13px;
+}
+/* -------------------------------------------------------Footer css end------------------------------------------------ */
+
+/* -------------------------------------------------------Dashboard css start------------------------------------------------ */
+.text-gray-800 {
+  color: #5a5c69;
+  font-weight: normal;
+  font-size: medium;
+}
+.btn-show-details {
+  color: #fff;
+  background-color: #4e73df;
+  border: none;
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+}
+.border-radius {
+  border-radius: 5px !important;
+  border-color: #858796 !important;
+}
+/* main-content-css */
+.border-left-primary {
+  border-left: 0.25rem solid #4e73df !important;
+}
+.border-left-success {
+  border-left: 0.25rem solid #1cc88a !important;
+}
+.border-left-danger {
+  border-left: 0.25rem solid #e74a3b !important;
+}
+.border-left-info {
+  border-left: 0.25rem solid #36b9cc !important;
+}
+.border-left-dark {
+  border-left: 0.25rem solid #5a5c69 !important;
+}
+.text-gray-300 {
+  color: #dddfeb !important;
+}
+.text-xs {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.text-primary {
+  color: #4e73df !important;
+}
+.text-success {
+  color: #1cc88a !important;
+}
+.text-danger {
+  color: #e74a3b !important;
+}
+.text-info {
+  color: #36b9cc !important;
+}
+.text-dark {
+  color: #5a5c69 !important;
+}
+/* scroll to top css */
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(90, 92, 105, 0.5);
+  line-height: 46px;
+}
+.rounded {
+  border-radius: 0.35rem !important;
+}
+/* -------------------------------------------------------Dashboard css end------------------------------------------------ */
+
+/*-------------------------------------------------------- SidePanel css start--------------------------------------------- */
+.sidebar {
+  min-height: 100vh;
+}
+.bg-gradient-primary {
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-size: cover;
+}
+.accordion {
+  overflow-anchor: none;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* / a  / */
+
+.sidebar-dark .sidebar-brand {
+  color: #fff;
+}
+.sidebar .sidebar-brand {
+  height: 4.375rem;
+  text-decoration: none;
+  /* / font-size: 0.88rem; / */
+  font-weight: 800;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  z-index: 1;
+}
+.rotate-n-15 {
+  transform: rotate(-15deg);
+}
+.sidebar .sidebar-brand .sidebar-brand-text {
+  display: inline;
+}
+
+/* / hr  / */
+
+.sidebar-dark hr.sidebar-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.sidebar hr.sidebar-divider {
+  margin: 0 1rem 1rem;
+}
+
+/* / li  / */
+
+.sidebar .nav-item {
+  position: relative;
+}
+
+/* / a  / */
+
+.sidebar-dark .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar .nav-item .nav-link {
+  /* / text-align: center; / */
+  padding: 0.75rem 1rem;
+  width: 10.5rem;
+}
+.sidebar .nav-item .nav-link,
+.topbar .nav-item .nav-link {
+  position: relative;
+}
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+/* / div  / */
+
+/* .sidebar .nav-item .collapse {
+  position: absolute;
+  left: calc(6.5rem + 1.5rem / 2);
+  z-index: 1;
+  top: 2px;
+} */
+/* .animated--grow-in, .sidebar .nav-item .collapse {
+  -webkit-animation-name: growIn;
+  animation-name: growIn;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-timing-function: transform cubic-bezier(.18,1.25,.4,1),opacity cubic-bezier(0,1,.4,1);
+  animation-timing-function: transform cubic-bezier(.18,1.25,.4,1),opacity cubic-bezier(0,1,.4,1);
+} */
+.collapse:not(.show) {
+  display: none;
+}
+
+/* / div / */
+
+.sidebar .nav-item .collapse .collapse-inner,
+.sidebar .nav-item .collapsing .collapse-inner {
+  padding: 0.5rem 0;
+  min-width: 10rem;
+  font-size: 0.85rem;
+  margin: 0 0 1rem 0;
+}
+.sidebar .nav-item .collapse .collapse-inner {
+  border-radius: 0.35rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgb(58 59 69 / 15%);
+}
+
+/* / a  / */
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item,
+.sidebar .nav-item .collapsing .collapse-inner .collapse-item {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  display: block;
+  color: #3a3b45;
+  text-decoration: none;
+  border-radius: 0.35rem;
+  white-space: nowrap;
+}
+a {
+  color: #4e73df;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* / span  / */
+.sidebar .nav-item .nav-link span {
+  /* / font-size: .85rem; / */
+  display: block;
+  margin-left: 0.5rem;
+}
+
+.nav-link > i {
+  margin-top: 3px;
+}
+/* / button  / */
+.sidebar-dark #sidebarToggle {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.sidebar #sidebarToggle {
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sidebar-dark #sidebarToggle::after {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidebar #sidebarToggle::after {
+  font-weight: 900;
+  content: "\f104";
+  font-family: "Font Awesome 5 Free";
+  margin-right: 0.1rem;
+}
+.sidebar-dark.toggled #sidebarToggle::after {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidebar.toggled #sidebarToggle::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  margin-left: 0.25rem;
+}
+
+.btn {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fw-normal {
+  background-color: white;
+}
+.fw-normal > li > a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+/* -------------------------------------------------------SidePanel css end----------------------------------------------------- */
+
+/* -------------------------------------------------------Language css start----------------------------------------------------- */
+/* .d-sm-inline-block {
+  display: inline-block!important;
+}
+.d-none {
+  display: none!important;
+} */
+
+/* -------------------------------------------------------Language css start end----------------------------------------------------- */
+
+/* ------------------------------------------------------Responsive/Mobile View Css------------------------------------------- */
+@media (min-width: 576px) {
+  /* Navbar css */
+  .topbar .dropdown .dropdown-menu {
+    width: auto;
+    right: 0;
+  }
+  .navbar-expand .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .dropdown .dropdown-menu {
+    font-size: 0.85rem;
+  }
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+  .dropdown-menu.show {
+    display: block;
+  }
+  .dropdown-menu-right {
+    right: 0;
+    left: auto;
+  }
+  .shadow {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 122%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 0.85rem;
+    color: #858796;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+  }
+  .topbar .dropdown {
+    position: relative;
+  }
+
+  /* ----Language css---- */
+  .d-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+/* @media only screen and (max-width: 569px) {
+  .btn-hide {
+    display: none;
+  }
+  .calender-mobile-view {
+    width: 450px;
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .btn-display {
+    display: inline;
+  }
+  .calender-mobile-view {
+    width: 300px;
+    height: 45px;
+  }
+}
+
+@media only screen and (min-width: 570px) {
+  .btn-display {
+    display: inline;
+  }
+  .calender-mobile-view {
+    width: 500px;
+    height: 45px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .btn-display {
+    display: inline;
+    flex-direction: row;
+  }
+  .calender-mobile-view {
+    flex-direction: row;
+  }
+} */
